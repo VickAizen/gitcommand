@@ -24,3 +24,5 @@
     # Add remote repo with a token
     git remote add origin https://token@github.com/example/example.git
 
+# First push on actualy branch
+   git push -u origin main
