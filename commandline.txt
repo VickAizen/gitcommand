@@ -15,7 +15,7 @@
 # Commit the changes
     git commit -m "any description"
 
-# replace and rename the actualy branche to main
+# replace and rename the current branche to main
     git branch -M main
 
 # Add a remote repo
@@ -24,5 +24,8 @@
     # Add remote repo with a token
     git remote add origin https://token@github.com/example/example.git
 
-# First push on actualy branch
+# First push on current branch
    git push -u origin main
+
+   # later push on current branch
+       git push
