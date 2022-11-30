@@ -1,0 +1,26 @@
+# Add on Github 29/11/2022
+# Vick Aizen _assignature_
+# Edited on vim
+
+# initialization repo
+    git init
+
+# Add file/changes to localmachine
+    # add all files
+    git add .
+    
+    # add an especific file
+    git add especificfile.txt
+
+# Commit the changes
+    git commit -m "any description"
+
+# replace and rename the actualy branche to main
+    git branch -M main
+
+# Add a remote repo
+    git remote add origin https://github.com/example/example.git
+    
+    # Add remote repo with a token
+    git remote add origin https://token@github.com/example/example.git
+
