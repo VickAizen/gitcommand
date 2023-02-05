@@ -29,3 +29,6 @@
 
    # later push on current branch
        git push
+
+# Changing remote push url origin
+    git remote set-url --push origin [your_url]
